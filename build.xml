@@ -3,14 +3,13 @@
 <project default="test" name="projmgr" basedir=".">
 
   <property name="name"           value="projmgr"/>
-  <property name="version"        value="0.4.3"/>
-  <property name="version_date"   value="2015-08-24"/>
-  <property name="projectName"    value="xlattice" />
+  <property name="version"        value="0.4.5"/>
+  <property name="versionDate"    value="2016-05-26"/>
+  <property name="project_name"   value="xlProjMgr_java"/>
   <!-- ======================================================= -->
   <!-- S O U R C E   P R O P E R T I E S                       -->
   <!-- ======================================================= -->
-  <!-- this is an XLattice subproject, so root_dir is one up   -->
-  <property name="root_dir"       value=".."/>
+  <property name="root_dir"       value="../xlattice_java"/>
   <property name="src_dir"        value="src/java"/>
   <property name="test_src_dir"   value="src/test"/>
   <property name="jml_dir"        value="jml"/>
@@ -20,7 +19,7 @@
   <!-- ======================================================= -->
   <property name="build_dir" value="target"/>
   <property name="classes_dir"      value="${build_dir}/classes"/>
-  <property name="lib_dir"          value="../lib"/>
+  <property name="lib_dir"          value="../${root_dir}/lib"/>
   <property name="test_classes_dir" value="${build_dir}/test-classes"/>
   <property name="test_report_dir"  value="${build_dir}/test-reports"/>
   <property name="javadoc_dir"      value="../xdocs/components/${name}/api"/>
@@ -68,7 +67,7 @@
       <classpath>
         <fileset dir="${lib_dir}">
           <include name="xlattice/util-0.3.11.jar"/>
-          <include name="xlattice/corexml-0.3.8.jar"/>
+          <include name="xlattice/corexml-0.3.11.jar"/>
           <include name="xpp3/xpp3-1.1.3.4.C.jar"/>
           <include name="antlr/antlr-2.7.4.jar"/>
         </fileset>
@@ -90,7 +89,7 @@
       <classpath>
         <fileset dir="${lib_dir}">
           <include name="xlattice/util-0.3.11.jar"/>
-          <include name="xlattice/corexml-0.3.8.jar"/>
+          <include name="xlattice/corexml-0.3.11.jar"/>
           <include name="xpp3/xpp3-1.1.3.4.C.jar"/>
           <include name="antlr/antlr-2.7.4.jar"/>
         </fileset>
@@ -113,7 +112,7 @@
         <fileset dir="${lib_dir}">
           <include name="junit/junit-4.1.jar"/>
           <include name="xlattice/util-0.3.11.jar"/>
-          <include name="xlattice/corexml-0.3.8.jar"/>
+          <include name="xlattice/corexml-0.3.11.jar"/>
           <include name="xpp3/xpp3-1.1.3.4.C.jar"/>
           <include name="antlr/antlr-2.7.4.jar"/>
         </fileset>
@@ -274,3 +273,5 @@
   </target>
 
 </project>
+
+

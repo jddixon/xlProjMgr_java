@@ -8,9 +8,9 @@ public class Version extends org.xlattice.Version {
 
     public Version () {
         super("org.xlattice.projmgr", // package
-            0,                       // minor
+            0,                       // major
             4,                       // minor
-            2,                       // decimal
+            4,                       // decimal
             0);                      // build
     }
 };
