@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Take care: XLattice component version numbers wired in.
 LCP=.:$JAVA_HOME/lib/tools.jar:$LCP

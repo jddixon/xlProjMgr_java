@@ -1,0 +1,130 @@
+-----BEGIN RSA PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoM2sBgX0ChP2JriXkOxS
+e2FjHYVzBGkNvgf0vIAa7FFYZi2pWmxBAVXgl3tTiB3quqqud/MbKqdejM6gkKBK
+v8f7hlcBQLD6BLIZ/RRfhIElc+WlDVfKSnBTB4va5qTQAgvuq5i8+oMj7G8WEy5d
+7cYucWyUJMtHvT4pCDtBWeeqQ62tByWjv34Ud/+A9Mjf0leiWxM3tiToVsqIKb4s
+zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
+H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
+GQIDAQAB
+-----END RSA PUBLIC KEY-----
+xlProjMgr_java v0.4.5
+2016-05-26 20:16:20
+# START CONTENT #
+xlProjMgr_java
+ .dvcz
+  projCfg 843523966a5e84d8ad2ce5cdef60d9af6aac4fce
+  projCfg.local a193016684e7dab63670d35f05650f6a05659818
+  version c0a18d7ac5e10b3dcaa31d081432395bd731591a
+ .gitignore 45c1a25af208e03923f170c817406cbde528583b
+ CHANGES ae08d81e3b8d3f69dfed7a29741ed493513e7af4
+ LICENSE.html 4d0038a843d3f3e0553fca7df2c17ad053916e5d
+ LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
+ README.md 1d38f4a0b0dea8165f28adc5e4b82435ccbe5d46
+ TODO f0089aca39b8635c667c726c175ba6110b770147
+ bkp2U 54d5800b9d4a06906788c76e31468d69861a9bc4
+ build.sh 8844d742637d7668927c8c39cc2fba6e6b8736d7
+ build.xml 0e86a852b48f3d87a70bbc379c4ca4f73712cf8c
+ classpath.sh 76a2ec0287f67fe1074714657aa637f2f706576f
+ countem f6d43d39a2d0aa936ddb5afd78016ca928fc74fb
+ ghpDoc
+  index.md cedab637f3ccc9101e398b51ef81c9b9230156c8
+ installit 03122222b7ca0664f3092fbed00c28efd042ab56
+ jml
+ project.properties da39a3ee5e6b4b0d3255bfef95601890afd80709
+ project.xml 2aba03423e45a084cb99bcda0534e12d603f3946
+ projmgr.sh 88a5ce96838d0f9e0d1e4347787a142e936aa3aa
+ src
+  java
+   org
+    xlattice
+     projmgr
+      AntBuild.java 76aa311b08fceb34fd4478628e64f6362483ead3
+      AntBuildFile.java c0f8ee43cd407f5d68aabf807dbfb94b1ed2a827
+      AntMap.java 2c2f36062b418449329eea1f363c18853a1463e7
+      BuildElementFactory.java dd326a65d755c97c9e08699750ee2f65a85a57d7
+      CmdFiles.java c6bd5f2809ee1d0c7cff7bb01f72e0e7d5faa72b
+      Dependency.java 81b0c3c4fa450f3eab3f79663cf2321988a50a55
+      ProjMgr.java 885eec98409f840c1543e667691a16f8dfced95d
+      Project.java f1adde4bef04f6551f2627d76fde72cc199ed768
+      ProjectReader.java 79044471c8d0e34565d706ea844920604e1a6eab
+      StandardAntBuild.java 5887ab61e00626986a67c713d3232191c1787f0e
+      Version.java 9eca5defb4686ebbe7384c5a401882cc7e1aafdb
+      antOM
+       AntComment.java 651a14b5bc69b7a12e20f51b3449fc606e8684a3
+       Arg.java 509303654be095bb5b9442c4bb245b327f5360e0
+       BatchTest.java 7bf59d81d48d56f605f2b1f836eb92147ce1f040
+       Classpath.java 9cb5db9bc1f91fbee8e1b6cbe55658aa63116a4f
+       CommandLineArgElm.java f6c5742ac3ac15c537b3e370345d267887f5e2da
+       Copy.java 2c1dd099d3a730a8487ac630fd5cc72f96471f40
+       Delete.java 2752a888141054a10be116cbf92b654750bf9a0d
+       Env.java 0e9ab8a1644d2d642c8fadfb9f895a6d8c06212b
+       Exclude.java 6adfea9338f95ee916b86a5ed05ddda8f1b39359
+       Exec.java 02a41ac5f897babedd4f1c650e31b2ae8256f078
+       ExecElm.java 95d86bf881912d486cade0f674790bdede865826
+       FileSet.java 318d41bf9b06a3eb76428d07dbb94d34d2c3014e
+       FileSetElm.java ed3e04e691f288042c554a348b34bf5cf1178222
+       Format.java 7d85d6840d98da5a02d73c17f964e5cc18522ba9
+       Formatter.java 25124393c5bb9b237e04a7b60dc887a43a91791e
+       Include.java bdbec155c785fb3918e254a5acee5f371016631a
+       Jar.java b05a503f2e54ea63402218746d996c3cb85ab04d
+       Javac.java 4f5c1c5d098882a2e9eb3328ae67f7ca29ae939c
+       JavacElm.java 1914d06658dadef57aa7684f178b2179b12f52da
+       Javadoc.java 6097ebb5d535cd97e2c2fe5ffc8bbde8a104336c
+       JavadocElm.java 1a2c13e4f99c109228837cb440d3bc50dccdab6e
+       Junit.java f5eef4a7d595684266d6b4fced84de8fbf6626c0
+       JunitElm.java 4d098569bf15b9f439890f0eb62c4639176306a7
+       Jvmarg.java 913b03f8c7cc5bb50caea25f8e710a0858e4a822
+       Mkdir.java 3c2f86b5aaa37ffcc80a9f1c9b3dd75a9ed50db0
+       Pathelement.java 43d80c80a6b8fb82fe25c94372210d4d0fd220ad
+       PathlikeElm.java 856dfae2cb311b3c8a13448faa9b3e221888856b
+       Project.java d3c594b1798ab2044ba495f9627e8636cc8a4e9a
+       ProjectElm.java 8d7512c7da541dd49bf35b72acce7159f778376e
+       Property.java d05c3948703c2299ff9acb758d21f33e114b4e9d
+       Src.java b3de8d85f9dabad30df5a0970319e06aa3454c49
+       Sysproperty.java 08125a1f17e3622dd8427e6b14f2a7a2affcf970
+       Tar.java 3749f6364a85452d55abf5a800087966fb828612
+       TarFileSet.java cf28ea7308b557699c3aa37d331d5179705b947c
+       Target.java 7a049aa6012c0ef60fce83d256fbc8166e483fb5
+       TargetElm.java 3fea049a489c769ceaa2a1eaa24a9d5e5f0d3724
+       Tstamp.java 5a9f359cf514b82e383009f829dc9ef3d7fd1ae8
+       Zip.java ea2b72ec264477a63de3cffbaa3cd927d4153ca3
+      jml
+       JmlContext.java a2a8a5210f9f6aa7e1fc40ce5b618432ea0114b9
+       JmlInterpreter.java a2c4f4e13a29e23ad9a2ceab346fa42bf8653a21
+       JmlLexer.java eed908782a3649c9d9ac432c1df66f7529f675de
+       JmlScanner.java 47d44521def3a23c95902b3796d2c1cfc747f298
+       JmlScannerTokenTypes.java fd8570b8a20adc6e9d69553f827134ef8d3807f1
+       JmlScannerTokenTypes.txt ca5e98fbf02a622930aec803c6393bbebdd34cc2
+       JmlTask.java ad3724b73d878af57650e434167eec011f37caec
+       JmlWriter.java ebd36d5a60a129494a8b062202f82f1ddb2a4fac
+       Main.java 15ba523c11ff39594fadd9377c951bb3c3856256
+       MockInterpreter.java d29fc9ec181552c0ded0181cf8a8cf8d1027d99c
+       OmMaker.java cf6b231f1a87ffde64543cbe76a975be484bfb35
+       Version.java_ b714e90b3adcdb9150753687dbc5abb23c9255b5
+       XdocTarget.java f5a7de7966c5c03a1d5d380bfad5073864cbcf14
+       jml.g f7d216050b72bb48b3934ac89eadecb98ff03d19
+       package.html 5e2c4ac8f6911170be7a6d58e3ff67e142e99b3d
+  test
+   org
+    xlattice
+     projmgr
+      TestAntBuild.java 25809f553808b705726836223f70b101759b7cff
+      TestBuildElementFactory.java 5cd83cde2ecc0dd6d189352978ac8bfe3fdff3c5
+      TestCmdFiles.java 966d3baa7ecff4aaf0d0005eab11e07098b72411
+      TestNewAntBuild.java ffb4e2a31a5288ae6e2e9e84343f6f0b24fdc563
+      TestProjMgr.java 34d76e1a0fc17e6445c0e46fcbbeb294cbdcabaf
+      TestProject.java 71e6d03b9e05cf35051797f53a62fb8240a2948e
+      TestProjectMapping.java_ c4b8b6efc08b22652f8e3d9e6ca21c9e80c6c332
+      TestProjectReader.java e69c5bd640acd07338f3ba1a3d4b2f13d1f55092
+      jml
+       TestChrFunc.java 9f9eac11490eb774d2e6f0e49df22a1e277a7c4c
+       TestJmlLexer.java d2de295baf6cad6fd9b1b54f547bad4e91786a9a
+       TestTable.java 7958101a128159d01eb0a52e4e80d6b24f8e12e1
+       TestXdocTarget.java b53f1b969195005a4b116ced5225e71dcb0aa8f6
+      parent-project.xml 544868140ce9652c988f15a7db829042c1f02e2a
+ styleit b5945896cc5956641e84a03964b6d24f01c3306b
+ test.all ea00ce00b32ac2951177b85e1ee2f9c17c3ce108
+ xdocs
+# END CONTENT #
+
+IXmxxLBO0sgxSWYECI43Q2o+uBp3nKe6CN/IR7m/fF24XZcR6EVQMCD8Rg4kTyfcJarXrCvfjYP6xcrMHrKu7aJKhMmQRqo0pr/ee2Lh+mrsXrlUqFHzxBQDenp35M6VVnLPIpoR4Y1W3ePmy4FSUFi7S0zUrLjuWdR7JGhT23TrbXSWN3F/e5/dm5DQ2zEliTTg2VtOE3vBHIryxrGeOQkfECODFMf+1olzmfrLuPUEeJzHKr57ZbPsj/F8xWMkLmwODgViIQClV2m0jbxayEV8VX+VCpXHebIh7LkalBzFbemTx6FgshXDxG4OhAC9g1T/h0xZhfWRHdgPWMoHrQ==
