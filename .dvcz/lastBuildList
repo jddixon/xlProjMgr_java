@@ -7,26 +7,41 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-xlProjMgr_java v0.4.5
-2016-05-26 20:16:20
+xlProjMgr_java v0.4.6
+2016-07-07 16:03:02
 # START CONTENT #
 xlProjMgr_java
  .dvcz
-  projCfg 843523966a5e84d8ad2ce5cdef60d9af6aac4fce
+  builds 0fbc841b6168e015b73354c08ca7a9046857a7a2
+  lastBuildList 7727fbc768285ec8968fe97f1a98cbefc50edf88
+  projCfg 8645f534309bc12a27f536dd59e6efe4e1741132
   projCfg.local a193016684e7dab63670d35f05650f6a05659818
-  version c0a18d7ac5e10b3dcaa31d081432395bd731591a
- .gitignore 45c1a25af208e03923f170c817406cbde528583b
- CHANGES ae08d81e3b8d3f69dfed7a29741ed493513e7af4
+  version b532bd715e2a967909ad35b2eada16429c7a29db
+ .gitignore 73b879f8842850058bca4519cca9b24d39bcf052
+ CHANGES acc4e5a502c1593384785204ea8fc9921a740960
  LICENSE.html 4d0038a843d3f3e0553fca7df2c17ad053916e5d
  LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
  README.md 1d38f4a0b0dea8165f28adc5e4b82435ccbe5d46
- TODO f0089aca39b8635c667c726c175ba6110b770147
+ TODO 7a8c775441460be7c0123a8884cc98a597ea39ca
  bkp2U 54d5800b9d4a06906788c76e31468d69861a9bc4
  build.sh 8844d742637d7668927c8c39cc2fba6e6b8736d7
- build.xml 0e86a852b48f3d87a70bbc379c4ca4f73712cf8c
+ build.xml c735911b5a5dd2abe135f0922293487317c7568b
  classpath.sh 76a2ec0287f67fe1074714657aa637f2f706576f
  countem f6d43d39a2d0aa936ddb5afd78016ca928fc74fb
  ghpDoc
+  css
+   LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
+   ghp.css 1d6ebe8a6cf8f61f4645a793cb087dfae2420f33
+   main.css 018ed80b8a6e6607bc7c08595fa5a7fa56853885
+   normalize.css cba40c7ce3d558d00ff79d7505ac3d348015ec9c
+  img
+   GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
+   chunk.jpg de2b27e41f1547fc14b13399f5906b4303b49657
+   chunk2.jpg d0593d312dbb8ea837c17b28cb639726e29ea93b
+   cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
+   simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
+   xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
+   xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
   index.md cedab637f3ccc9101e398b51ef81c9b9230156c8
  installit 03122222b7ca0664f3092fbed00c28efd042ab56
  jml
@@ -48,7 +63,7 @@ xlProjMgr_java
       Project.java f1adde4bef04f6551f2627d76fde72cc199ed768
       ProjectReader.java 79044471c8d0e34565d706ea844920604e1a6eab
       StandardAntBuild.java 5887ab61e00626986a67c713d3232191c1787f0e
-      Version.java 9eca5defb4686ebbe7384c5a401882cc7e1aafdb
+      Version.java a1fa499d18a9703dfafe09f64d5dcbda70290174
       antOM
        AntComment.java 651a14b5bc69b7a12e20f51b3449fc606e8684a3
        Arg.java 509303654be095bb5b9442c4bb245b327f5360e0
@@ -127,4 +142,4 @@ xlProjMgr_java
  xdocs
 # END CONTENT #
 
-IXmxxLBO0sgxSWYECI43Q2o+uBp3nKe6CN/IR7m/fF24XZcR6EVQMCD8Rg4kTyfcJarXrCvfjYP6xcrMHrKu7aJKhMmQRqo0pr/ee2Lh+mrsXrlUqFHzxBQDenp35M6VVnLPIpoR4Y1W3ePmy4FSUFi7S0zUrLjuWdR7JGhT23TrbXSWN3F/e5/dm5DQ2zEliTTg2VtOE3vBHIryxrGeOQkfECODFMf+1olzmfrLuPUEeJzHKr57ZbPsj/F8xWMkLmwODgViIQClV2m0jbxayEV8VX+VCpXHebIh7LkalBzFbemTx6FgshXDxG4OhAC9g1T/h0xZhfWRHdgPWMoHrQ==
+H49T3BtQxphg8MQp7zc6l7DLIUVQS/YI+/A1wXEDWPo3YYuIZd5S+lGyAbxvtoFmq3IE08QLHNuRnBsMosUoc30f0c436XtG5rfpJMbP/LwImUC3QmUOrJEz1cgzpPhCervxufeJRmGASCPRb5J/6i+fyadupm54+A0NBVnHlp8kyyn3O36AtvTa2AOzUFvbJVyMKCyOZRnN7zTMA4xDPnHwZ+cSwexXe3ZqtHw22c2QDE8GyX+KIwfcD+FLQIQB0Go9SfmAW0DZBz9XC9XRp2/GnpOyvU+MFvW1D8aPJKlhypHoASqF6wO6BB1oBB46g/+pCazOTmoN5OTfNJjL1A==
