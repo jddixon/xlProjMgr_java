@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project default="test" name="projmgr" basedir=".">
+<project default="test" name="xlProjMgr_java" basedir=".">
 
   <property name="name"           value="projmgr"/>
-  <property name="version"        value="0.4.5"/>
-  <property name="versionDate"    value="2016-05-26"/>
-  <property name="project_name"   value="xlProjMgr_java"/>
+  <property name="version"        value="0.4.6"/>
+  <property name="versionDate"    value="2016-07-07"/>
+  <property name="project_name"   value="xlattice"/>
   <!-- ======================================================= -->
   <!-- S O U R C E   P R O P E R T I E S                       -->
   <!-- ======================================================= -->
@@ -19,7 +19,7 @@
   <!-- ======================================================= -->
   <property name="build_dir" value="target"/>
   <property name="classes_dir"      value="${build_dir}/classes"/>
-  <property name="lib_dir"          value="../${root_dir}/lib"/>
+  <property name="lib_dir"          value="${root_dir}/lib"/>
   <property name="test_classes_dir" value="${build_dir}/test-classes"/>
   <property name="test_report_dir"  value="${build_dir}/test-reports"/>
   <property name="javadoc_dir"      value="../xdocs/components/${name}/api"/>
@@ -211,7 +211,7 @@
     </copy>
 
     <!-- project control files -->
-    <copy todir="${dist_dir}/${component}" file="../LICENSE.html" />
+    <copy todir="${dist_dir}/${component}" file="${root_dir}/LICENSE.html" />
     <copy todir="${dist_dir}/${component}" file="build.xml" />
     <copy todir="${dist_dir}/${component}" file="build.sh" />
     <copy todir="${dist_dir}/${component}" file="classpath.sh" />
@@ -273,5 +273,6 @@
   </target>
 
 </project>
+
 
 

@@ -1,5 +1,8 @@
 xlattice_j/projmgr/TODO
 
+2015-05-25
+    * build fails, can't find org.xlattice.Version
+
 2013-12-29
     * upgrade: existing code uses ancient 2.7.4 antlr
         - tentatively switch to antlr 4.1 (github antlr/antlr4),
