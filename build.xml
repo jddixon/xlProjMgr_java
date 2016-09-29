@@ -3,8 +3,8 @@
 <project default="test" name="xlProjMgr_java" basedir=".">
 
   <property name="name"           value="projmgr"/>
-  <property name="version"        value="0.4.6"/>
-  <property name="versionDate"    value="2016-07-07"/>
+  <property name="version"        value="0.4.7"/>
+  <property name="versionDate"    value="2016-09-29"/>
   <property name="project_name"   value="xlattice"/>
   <!-- ======================================================= -->
   <!-- S O U R C E   P R O P E R T I E S                       -->
@@ -211,7 +211,7 @@
     </copy>
 
     <!-- project control files -->
-    <copy todir="${dist_dir}/${component}" file="${root_dir}/LICENSE.html" />
+    <copy todir="${dist_dir}/${component}" file="${root_dir}/LICENSE-XLATTICE.html" />
     <copy todir="${dist_dir}/${component}" file="build.xml" />
     <copy todir="${dist_dir}/${component}" file="build.sh" />
     <copy todir="${dist_dir}/${component}" file="classpath.sh" />
@@ -273,6 +273,7 @@
   </target>
 
 </project>
+
 
 
 
