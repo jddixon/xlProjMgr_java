@@ -1,5 +1,8 @@
 xlattice_j/projmgr/CHANGES
 
+v0.4.7
+    2016-09-29
+        * correct license                                           SLOC 7516
 v0.4.6
     2016-07-07
         * add ghpDoc/{css,img}                                      SLOC 7301
@@ -21,6 +24,7 @@ v0.4.0
         * use util/context/ instead of corexml/context/
         * use JUnit 4.1 and Java 1.5
         * accept any valid JNLP version number in setVersion()
+
 
 
 
